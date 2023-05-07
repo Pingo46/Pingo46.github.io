@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  padding-left: 1em;
+  font-family: "宋体",serif;
+  font-weight:normal;
+  color: #272727;
+  text-shadow: 4px;
+  background-image:url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.opacity img{
+            opacity: 0.8;
+            }
+
+#Q{text-align: center;}
+
+p{
+  border-radius: 18px;
+  font-size: 20px;
+  color:#336666;
+}
