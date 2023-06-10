@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <script src="studioGhibli.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .essay_card{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 350px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.6s;
+    box-shadow: 0px 0px 120px -25px #BFB0A3;
+}
+  .essay_card:hover{
+      transform: scale(1.02);
+      box-shadow: 0px 0px 80px -25px #BFB0A3;
+      transition: all 0.6s;
+  }
+    .essay_header{
+      padding: 20px;
+    }
+    .essay_desc{
+      padding:25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="HomePage.html">首页 <span class="sr-only">(current)</span></a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="脚步与文字.html">脚步与文字</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="光影与声色.html">光影与声色</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Anime Details Jumbotron -->
+<div class="container" >
+  <div class="mt-5 rounded text-center">
+    <h1 class="display-6"  style="font-family:FangSong; font-weight:bolder;">脚步与文字</h1>
+    <center><hr class="line"></center>
+  </div>
+</div>
+
+<!-- Details -->
+    <div class="essay_card reveal" id="SpiritedAway">
+      <div class="info_section">
+        <div class="essay_header">
+          <h3>走入潭水深处</h3>
+          <h4>2022</h4>
+        </div>
+        <div class="essay_desc">
+          <p class="text">
+              中国新闻奖、五个一工程奖得主导演吴钦:
+              "但是这种职业所需，因为你在职业上面做了那么多年的记者，武汉或者是我们的国家那个时候发生了这么大的事情，我们每天就只能坐在家里边刷朋友圈，看看其他的一些新闻报道，总觉得自己是否可以做点什么，而且自己的职业上面设备我自己都有，那么真实的能够去记录一些东西，把最真实的东西医护人员也好，患者也好，那时候他们的一些真实情况，用我自己的摄像机镜头把它记录下来，我觉得这是职业，所既然选择了职业，那么肯定有很多东西就得放弃，因为我肯定已经下定决心，肯定是要去的。所以在这个事情上我觉得肯定是自私的，但是既然选择了这个职业，就像你选择的当兵一样，上了战场又不是一样得往前冲，对吧？"
+          </p>
+        </div>
+      </div>
+      <div class="blur_back SpiritedAway_back" style="background-image: url('img/kiki.jpg')"></div>
+    </div>
+
+    <div class="essay_card reveal" id="ponyo">
+      <div class="info_section">
+        <div class="essay_header ">
+          <h3> 你不认识他，他只是一个文艺工作者</h3>
+          <h4> 2022</h4>
+        </div>
+        <div class="essay_desc">
+          <p class="text">
+            长江人民艺术剧院院长、金狮奖得主演员庞磊:"但其实在这条路上你越走越长，越往前伸越往前走，我当时就觉得好像是一个人在 往一个海里面走一样。 你刚刚踏到水的时候，海水往脚面上扑的时候，你感觉非常的凉爽，也很舒适、很 惬意。然后踩在沙滩上再往前走，水没到膝盖的时候，你会觉得这水越来越深了，感到了 一丝丝凉，但是你还能控制、还能驾驭。你再往前走，再往这条路上走，你会发现它已经 没到了你的大腿，再走，没到了你的胯、你的肚子，你就会发现越来越冷，而且波涛海浪 会摇摆你、会往各种方向推动你，你会发现有点不可自控，你会发现我怎么驾驭不了了。 当再走到前面的时候，没到脖子的时候，你甚至会有窒息的感觉，因为它有压力，压住你 的身体以后，你会觉得呼吸会有些不自然，然后脚底几乎已经没有根了，不知道该怎么生 根踩住地了，你会随着海浪去尽量、去想要驾驭它。"
+          </p>
+        </div>
+      </div>
+      <div class="blur_back ponyo_back" style="background-image: url('img/howl.jpg')"></div>
+    </div>
+
+    <div class="essay_card reveal" id="Fireflies">
+      <div class="info_section">
+        <div class="essay_header">
+          <h3> 消解数字孤独：00后线下“剧本杀”社交调查</h3>
+          <h4> 2022</h4>
+        </div>
+        <div class="essay_desc">
+          <p class="text">
+            数字时代人们在一定程度上忽视了现实交往，产生了“群体性孤独”， 线下剧本杀凭借自身社交特性，为青年群体提供了一条重新回归面对面社交的新路径。而线下剧本杀则为人们搭建了一个全新的人际交往空间。玩家以剧本杀为关注焦点展开社交，在互动过程中获取情感能量，在一定程度上消解了孤独感，为年轻群体的交往互动提供了一种新的可能。笔者将从这种社交行为入手，研究 00 后在剧本杀呈现出的社交观念，通过对个体行为和观念的分析、进而思考如何消解数字技术带来的孤独感。
+          </p>
+        </div>
+      </div>
+      <div class="blur_back Fireflies_back" style="background-image: url('img/Princess Mononoke.jpg')"></div>
+    </div>
+
+<!-- Footer -->
+<footer>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-12">
+        <hr class="light">
+        <h5>Copyright &copy;2023 Pingo</h5>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>

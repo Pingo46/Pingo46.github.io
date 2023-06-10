@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+    /* 基础样式 */
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 16px;
+    }
+    body, ul, li {
+      padding: 0;
+      margin: 0;
+    }
+    ul {
+      list-style: none;
+    }
+    img {
+      vertical-align: middle;
+    }
+    /* 作品集图像区域 */
+    #container {
+      /* 两侧的留白 */
+      margin: 0 15px;
+      /* 使得container不会被顶部固定定位的导航遮挡 */
+      padding-top: 60px;
+    }
+    .pic {
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    .pic span {
+      width: 22%;
+      display: inline-block;
+      margin: 1%;
+      position: relative;
+    }
+    .pic span img {
+      width: 100%;
+      transition: all 1s;
+    }
+    .pic span:hover img {
+      opacity: 0.8;
+      transform: scale(1.04);
+    }
+    .wz {
+      position: absolute;
+      margin-top: -60px;
+    }
+    .wz p {
+      color: #fff;
+      padding-left: 20px;
+      font-weight: bold;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="HomePage.html">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="脚步与文字.html">脚步与文字</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="光影与声色.html">光影与声色</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!-- 图像区域 -->
+    <div id="container">
+      <h2>摄影作品</h2>
+      <div class="pic"><span><img src="img/1.JPG">
+        <div class="wz">
+          <p>LO</p>
+        </div>
+      </span>
+      <span><img src="img/2.JPG">
+        <div class="wz">
+          <p>月升</p>
+        </div>
+      </span>
+      <span><img src="img/3.JPG">
+        <div class="wz">
+          <p>坠入一个梦境</p>
+        </div>
+      </span> <span><img src="img/4.JPG">
+        <div class="wz">
+          <p>黑猫</p>
+        </div>
+      </span>
+      <span><img src="img/5.JPG">
+        <div class="wz">
+          <p>通学路731号</p>
+        </div>
+      </span>
+      <span><img src="img/6.JPG">
+        <div class="wz">
+          <p>反转玫瑰</p>
+        </div>
+      </span>
+      <span>
+        <img src="img/7.JPG">
+        <div class="wz">
+          <p>丹砂</p>
+        </div>
+      </span>
+      <span><img src="img/8.JPG">
+        <div class="wz">
+          <p>夏天的肌理</p>
+        </div>
+      </span>
+      <span>
+        <img src="img/9.JPG">
+        <div class="wz">
+          <p>不良</p>
+        </div>
+      </span>
+      <span><img src="img/10.JPG">
+        <div class="wz">
+          <p>Me before you</p>
+        </div>
+      </span>
+      <span>
+        <img src="img/11.JPG">
+        <div class="wz">
+          <p>捕妖</p>
+        </div>
+      </span>
+      <span><img src="img/12.JPG">
+        <div class="wz">
+          <p>伏妖</p>
+        </div>
+      </span>
+    </div>
+  </div>
+    <!-- 影视创作 -->
+    <div class="section">
+      <div class="p-2 text-center">
+        <h2>影视作品</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="box"  style="text-align: center;">
+              <p class="text-center">
+                2022影视广告——《倒放你的美》
+              </p>
+              <iframe width="560" height="315" src="video/Ba03-01-022-0002.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="box"  style="text-align: center;">
+              <p class="text-center">
+                2022科普短片——《竹简不言 文明有声》
+              </p>
+              <iframe width="560" height="315" src="video/竹简不言 文明有声.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="box"  style="text-align: center;">
+              <p class="text-center">
+                2022故事短片——《在春天见面》
+              </p>
+              <iframe width="560" height="315" src="video/2021201033020吴一攸.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="section">
+          <div class="container ">
+            <div class="row">
+              <div class="col-12  ">
+                <div class="box"  style="text-align: center;">
+                  <p class="text-center">
+                    2023影视广告——《不破防》
+                  </p>
+                  <iframe width="560" height="315" src="video/待改字幕版.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--- Footer -->
+          <footer>
+            <div class="container-fluid">
+              <div class="row text-center">
+                <div class="col-12">
+                  <hr class="light">
+                  <h5>Copyright &copy;2023 Pingo</h5>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+  </body>
+</html>
